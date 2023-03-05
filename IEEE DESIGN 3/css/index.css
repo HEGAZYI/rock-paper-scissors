@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    animation: animate linear infinite 5s;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    
+}
+@keyframes animate {
+
+0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color: #0e3742;
+    text-shadow: none;
+}
+
+18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+    color: #0062be;
+    text-shadow: 0 0 5px #03bcf4, 0 0 5px #03bcf4, 0 0 5px #03bcf4, 0 0 5px #03bcf4, 0 0 5px #03bcf4;
+}
+}
